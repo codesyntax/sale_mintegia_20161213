@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        
+	<title>Github Eusko Haurlaritzan</title>
+        
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/white.css">
+            
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+              
+	<!-- Printing and PDF exports -->
+	<script>
+	  var link = document.createElement( 'link' );
+	  link.rel = 'stylesheet';
+	  link.type = 'text/css';
+	  link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+	  document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+        <style>
+          #portal-header {
+          height: 10%;
+          background-color: #bed600 !important;
+          }
+          #portal-logo{
+          padding: 1.2em 0 0.5em;
+          float: left;
+          position: relative;
+          z-index: 99999;
+          padding: 10px 0;
+          }
+          
+          #portal-logo img {
+          max-width: 180px;
+          height: auto;
+          padding: 10px 10px;
+          }
+          #portal-footer {
+          position: absolute;
+          bottom: 0%;
+          left: 40%;
+          }
+          .reveal strong,
+          .reveal b {
+          font-weight: bold;
+          color: #bed600;
+          }
+          .reveal .attribution{
+          position:absolute;
+          bottom:0px;
+          left:0;
+          font-size: 0.4em;
+          }
+        </style>
+      </head>
+      <body>
+        <div id="portal-header">
+          <a id="portal-logo" class="brand" title="CodeSyntax - Interneten adituak" accesskey="1" href="https://www.codesyntax.com/eu">
+          <img src="img/logonegatiboa.png" alt="CodeSyntax" title="CodeSyntax" width="274" height="61"/></a>
+        </div>
+
+	<div class="reveal">
+	  <div class="slides">
+	    <section id="frontpage">
+              <h2>Github Eusko Jaurlaritzan</h2>
+              <h4>Mikel Larreategi</h4>
+              <h4>Aitzol Naberan</h4>
+            </section>
+	    <section>
+              <h3>Gai ordena</h3>
+            <ul>
+              <li>Sarrera</li>
+              <li>Aurkezpena</li>
+              <li>Administrazio publikoan joerak kode irekian</li>
+              <li>Eusko Jaurlaritzaren egoera</li>
+              <li>Etorkizunerako proposamen bat</li>
+              <li>Galderak</li>
+            </section>
+            <section id="sarrera">
+              <h3>Sarrera</h3>
+              <h4>Github</h4>
+              <ul>
+                <li>Kode biltegi kudeatzailea</li>
+                <li>Doako kode biltegi publikoak</li>
+                <li>Ordainpeko kode biltegi pribatuak</li>
+                <li>Ezaugarri sozilak</li>
+                <li>Eduki estatikoa sortzeko aukera</li>
+                <li>Biltegi kudeaketarako tresnak</li>
+                <aside class="notes">
+                  Sozialak: Follow, fav, comment,
+                  Biltegi kudeaketa: Fork, Pull Request, comments, inline edizioa
+                  Kanpo zerbitzuekin integrazioa, travis, oauth hornitzailea
+                </aside>
+              </section>
+              <section id="GovernmentGithub">
+                <h3>Administrazio publikoen joerak</h3>
+                <ul>
+                  <li><a href="https://government.github.com/community/">government.github.com</a></li>
+                </ul>
+                <aside class="notes">
+                  githubko orrian erakutsi herrialde zerrenda
+                </aside>
+              </section>
+              <section id="adibideak: Frantzia">
+                <h4><a href="https://github.com/diplomatiegouvfr">Frantzia: Kanpo arazoetarako ministerioa</a></h4>
+              </section>
+              <section id="adibideak: Zelanda Berria">
+                <h4><a href="https://github.com/GOVTNZ">Zelanda berriko gobernua</a></h4>
+              </section>
+              <section id="adibide: Espainia">
+                <h4><a href="https://github.com/ctt-gob-es">Centrp de Transferencia de Tecnología</a></h4>
+              </section>
+              <section id="EgoeraEJ">
+                <h4>Eusko Jaurlaritza Github-en</h4>       
+                <ul>
+                  <li><a href="https://github.com/opendata-euskadi">Open Data Euskadi</a></li>
+                  <li><a href="https://github.com/UDA-EJIE">Uda EJIE</a></li>
+                </ul>
+              </section>
+              <section id="EgoeraEJbesteak">
+                <h4>Openapps - opendata.euskadi.eus</h4>
+                <ul>
+                  <li>PLATEA Integración de ficheros</li>
+                  <li>Aplicación para reserva de salas</li>
+                  <li>Parque móvil</li>
+                  <li>Web de calidad del aire en Euskadi</li>
+                  <li>Aplicación para control de amortización de activos</li>
+                  <li>Open Argazki</li>
+                  <li>Open Gida</li>              
+                  <li>Open Irekia</li>
+                  <li>Pasarela de pagos de la Administración Pública Vasca</li>
+                  <li>Forjas del Gobierno Vasco</li>
+                  <li>Open Programa</li>
+                </ul>
+              </section>
+              <section id="openapps egoera">
+                <h4>Openapps - opendata.euskadi.eus</h4>
+                <ul>
+                  <li>Kodea tar/zip fitxategietan</li>
+                  <li>Manualak eta instalazio argibideak pdf/doc fitxategietan</li>
+                </ul>
+                <aside class="notes">
+                  Formatu oriekin ekarpenak / zuzenketak / hobekuntzak jasotzea ia ezinezkoa
+                </aside>
+              </section>
+              <section id="helburuak">
+                <h4>Helburuak</h4>
+                <ul>
+                  <li>Jakintza elkarbanatzea</li>
+                  <li>Gardentasuna</li>
+                  <li>Berrerabilgarritasuna</li>
+                  <li>Parte hartzea</li>
+                </ul>
+              </section>
+             
+              <section id="proposamena">
+                <h4>Proposamena</h4>
+              </section>
+              <section>
+                  <h4>Identifikazioa</h4>
+                  <ul>
+                    <li>Ondo identifikatutako Github-eko perfil bat
+                    <ul>
+                      <li>goveus</li>
+                      <li>ejgv</li>
+                      <li>euskadi</li>
+                      <li>...</li>
+                    </ul>
+                    </li>
+                  </ul>
+                  <aside class="notes">
+                    adb. EJIE-UDA ez da oso identifikadore ona
+                  </aside>
+              </section>
+              <section>
+                <h4>Kodearen iturburua eskuragarri</h4>
+                <ul>
+                  <li>Zip-ak bakarrik ez argitaratu</li>
+                  <li>Github bezalako plataformek kodea irakurri eta ekarpenak egiteko erraztasunak ematen dute</li>
+                  <li>Kodearen gaineko ekarpenak eztabaidatu daitezke</li>
+                  <li>Aldaketen jarraipena egin daiteke</li>
+                  <li>Aldaketen integrazioa errazten da</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Dokumentazioa kodearekin batera mantendu</h4>
+                <ul>
+                  <li>Dokumentazioa formatu editagarrian</li>
+                </ul>
+                <aside class="notes">
+                  Kodearentzako esandakoak balio du dokumentazioa mantentzeko
+                </aside>
+              </section>
+              <section>
+                <h4>Saiatu garapena Github-en egiten</h4>
+                <ul>
+                  <li>Garapenaren historia jarraitzen laguntzen du</li>
+                  <li>Hartutako erabakiak zuzenak izan diren eztabaidatu daiteke</li>
+                  <li>Proiektua bizitasun mailaren adierazle</li>
+                </ul>
+                <aside class="notes">
+                  Github ez da eskaparate bat bakarrik
+                </aside>
+              </section>
+              <section>
+                <h4>Kasu egin biltegiei!</h4>
+                <ul>
+                  <li>Norbaitek erantzun galderei</li>
+                  <li>Norbaitek errebisatu aldaketak</li>
+                  <li>Norbaitek integratu / baztertu proposamenak</li>
+                  <li>...</li>
+                </ul>
+                <aside class="notes">
+                  Komuniutatea zaindu. Ekarpenak lortzea oso oso oso zaila da, eta daudenean
+                  kasurik ez egiteak kaltea baino ez du egiten
+                </aside>
+              </section>
+              <section id="kontuanizan">
+                <h4>Kontuan izan beharrekoak</h4>
+                <ul>
+                  <li>Erabiltzaile kudeaketa: rolak, erantzunkizunak, taldeak, antolakuntza...</li>
+                  <li>Denbora kostua</li>
+                  <li>Proiektu berrientzat lan protokoloa sortzea</li>
+                  <li>Sekretuen kudeaketa pentsatu</li>
+                </ul>
+              </section>
+	  </div>
+	</div>
+        
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+        
+	<script>
+	  // More info https://github.com/hakimel/reveal.js#configuration
+	  Reveal.initialize({
+	  history: true,
+          
+	  // More info https://github.com/hakimel/reveal.js#dependencies
+	  dependencies: [
+	  { src: 'plugin/markdown/marked.js' },
+	  { src: 'plugin/markdown/markdown.js' },
+	  { src: 'plugin/notes/notes.js', async: true },
+	  { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+	  ]
+	  });
+	</script>
+      </body>
+    </html>
